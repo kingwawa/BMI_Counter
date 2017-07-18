@@ -1,0 +1,93 @@
+/*color:#FFD366;*/
+body{
+	font-family:Microsoft JhengHei;
+}
+
+label{
+	color: #FFD366;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+
+input{
+	border-radius: 5px;
+	border:2px solid #FFD366;
+	border-radius: 5px; 
+	background-color: rgba(105,105,105,.3);
+	color:white;
+}
+
+ul{	
+	width: 1024px;
+	padding: 0;
+}
+
+
+li{
+	width: 700px;
+	margin:30px auto;
+	padding: 20px 15px;
+	font-size: 20px;
+	font-weight: 200;
+	background-color: white;
+	list-style-type:none;
+
+}
+
+h2{
+	text-align: center;
+	letter-spacing: 1px;
+	color:#424242;
+}
+
+.row{
+	background-color: #424242;
+}
+
+.row.bg{
+	background-color: #E3E3E3;
+}
+
+
+.list{
+	color:#424242;
+	width: 1024px;
+	height:1000px;
+	margin:30px auto;
+}
+
+
+#header{
+	height:300px;
+	width: 1024px;
+	margin:0 auto;
+	padding-top: 80px;
+
+}
+
+
+.logo{
+	text-align: center;
+	padding:20px auto;
+}
+
+.form-group{
+	margin-bottom: 5px;
+}
+
+.btnplc{	
+	padding: 50px;
+}
+
+.form-control{
+	border:2px solid #FFD366;
+	border-radius: 5px; 
+	background-color: rgba(105,105,105,.3);
+	color:white;
+	padding:2px 5px; 
+}
+
+li>span{
+	font-size: 15px;
+	color: #424242;
+}
