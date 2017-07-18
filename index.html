@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BMI Counter</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script src="js/jquery-2.2.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/all.css">
+	
+</head>
+<body>
+	
+	<div class="row">
+		<div id="header">
+			<div class="col-md-4 logo">
+				<img src="pic/BMICLogo.png" alt="logo">
+			</div>
+
+			<form class="col-md-4">
+			  <div class="form-group input">
+			    <label for="height">身高 cm</label>
+			    <input type="text" class="form-control ht" placeholder="請輸入身高(小數位四捨五入)">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="pwd">體重 kg</label>
+			    <input type="text" class="form-control wg" placeholder="請輸入體重(小數位四捨五入)">
+			  </div>
+			 </form>
+
+			<div class="col-md-2 btnplc">
+				<input type="button" id="btn" value="看結果">
+			</div>
+
+			<div class="col-md-2">
+				<label>您的BMI值為....</label>
+				<input type="textarea" id="bmi" readonly="true">
+			</div>
+		</div>
+	</div>
+	
+	<div class="row bg">
+		<h2>BMI紀錄</h2>
+		<div class="list">	
+			<ul class="record">
+			</ul>	
+		</div>
+	</div>
+
+<script src="js/all.js"></script>	
+</body>
+</html>
